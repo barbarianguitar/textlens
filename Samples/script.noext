@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+# 这是一个没有扩展名的 Python 脚本
+def greet(name: str) -> str:
+    return f"你好，{name}！"
+
+print(greet("文本透镜"))

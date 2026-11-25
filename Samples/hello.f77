@@ -1,0 +1,11 @@
+C     FIXED-FORM FORTRAN 77 SAMPLE
+      PROGRAM HELLO
+      INTEGER I
+      REAL TOTAL
+      TOTAL = 0.0
+      DO 10 I = 1, 3
+      TOTAL = TOTAL + FLOAT(I) * 1.5
+      PRINT *, 'HELLO', I, TOTAL
+   10 CONTINUE
+      IF (TOTAL .GT. 5.0) PRINT *, 'DONE'
+      END

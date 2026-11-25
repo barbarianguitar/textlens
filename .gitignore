@@ -1,0 +1,7 @@
+.DS_Store
+/TextLens.app/
+/TextLens-*.zip
+/TextLens-*.dmg
+/TextLens-*.dmg.sha256
+build/
+*.xcuserstate
